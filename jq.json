@@ -1,0 +1,34 @@
+{
+    "name": "random-prng-bsd",
+    "version": "0.1.0",
+    "description": "An implementation of the BSD libc rand() PRNG function.",
+    "homepage": "https://github.com/joelpurra/jq-random-prng-bsd",
+    "bugs": "https://github.com/joelpurra/jq-random-prng-bsd/issues",
+    "author": {
+        "name": "Joel Purra",
+        "url": "http://joelpurra.com/"
+    },
+    "contributors": [{
+        "name": "Peter Koppstein",
+        "url": "https://github.com/pkoppstein"
+    }],
+    "main": "./jq/main.jq",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joelpurra/jq-random-prng-bsd.git"
+    },
+    "dependencies": {
+        "joelpurra/jq-bigint": "^0.1.0"
+    },
+    "engines": {
+        "jq": "^1.5.0",
+        "jqnpm": "^1.0.0"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "keywords": [
+        "jq-package"
+    ]
+}
